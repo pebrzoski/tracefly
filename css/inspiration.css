@@ -1,0 +1,155 @@
+body{
+	
+	max-width:100%;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.wrapper{
+	background-color:rgba(030,045,110, 0.8);
+	background-blend-mode: multiply;
+	background-image:url("backgrounds/trip.jpg");
+	background-size: cover;
+	background-repeat:no-repeat ;
+    font-family: 'Roboto', sans-serif;
+	padding-bottom:250px;
+    
+}
+nav.navbar {
+	background-color:#ffffff;
+	border-bottom: 1px solid #DDDDDD;
+	                                                               
+ }
+a.navbar-brand{
+	color:#484848;
+	font-weight: bold;
+	font-size:22px;
+}
+ .navbar-nav .nav-link{
+	color:#484848;
+	text-transform: uppercase;
+	font-size:14px;
+}
+
+.nav-link:hover{
+	color:#FF5A5F;
+}
+
+i.fa.fa-plane.fa-2x:hover{
+    cursor:pointer;
+    
+}
+
+.section-intro{
+    
+    text-align:center;
+    margin-top:160px;
+    margin-bottom:40px;
+    
+}
+
+.section-intro h1{
+    font-size:40px;
+	font-weight: 500 !important;
+	color:#ffffff;
+    text-align:center;
+}
+
+.section-intro p{
+    font-size:20px;
+	font-weight: 400 !important;
+	color:#ffffff;
+    margin-top:20px;
+}
+
+.social-icons a {
+    margin: 0px 3px;
+    width:35px;
+    height:35px;
+    background: #eee;
+    font-size:20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius:50%;
+    color:#fff;
+    text-decoration:none;
+    cursor:pointer;
+    border:1px solid transparent;
+    margin-bottom:80px;
+    
+}
+.social-icons a:hover {
+    color:#000;
+}
+
+
+
+.section-inspiration{
+    padding-top:20px;
+    background-color:#F3F3F3;
+    padding-bottom:30px;
+}
+
+
+.text-left{
+    margin:0 auto; margin-right:10px; font-size:12px;
+}
+div.comment{
+    display:inline-block; text-decoration:none; margin:0 auto; margin-right:3px; font-size:12px; text-decoration: none;
+}
+
+
+
+
+
+.section-offerts{
+	
+	padding-top: 30px; 
+    padding-bottom:30px;
+	background-color:#222328;
+	
+}
+a.fly{
+	color:#FFFFFF;
+	font-size:14px;
+	text-align: center;
+
+}
+a.fly:hover{
+    color:#FF5A5F;
+    transition: 0.2s;
+}
+.section-pagination{
+    background-color:#f3f3f3;
+    padding:20px 0;
+}
+
+.footer{
+	
+	color:#fff;
+	font-size:13px;	
+}
+p.rights{
+	text-align: center;
+	letter-spacing:0.5px;
+    margin:0 auto;
+    padding:10px 0;
+}
+
+
+
+
+@media (max-width: 575px) { 
+
+.section-intro h1 {
+    font-size: 25px;
+    font-weight: 500 !important;
+    color: #ffffff;
+    text-align: center;
+}
+
+.section-intro p {
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: #ffffff;
+    margin-top: 20px;
+}

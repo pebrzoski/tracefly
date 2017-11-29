@@ -1,0 +1,283 @@
+/*
+N     A     W    I     G     A     C     J     A
+*/
+
+body{
+	
+	max-width:100%;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.wrapper{
+	background-color:rgba(0, 0, 0, 0.2);
+	background-blend-mode: multiply;
+	background-image:url("backgrounds/summer.png");
+	background-size: cover;
+	background-repeat:no-repeat bottom center;
+    font-family: 'Roboto', sans-serif;
+	padding-bottom:140px;
+}
+nav.navbar {
+	background-color:#ffffff;
+	border-bottom: 1px solid #DDDDDD;
+	                                                               
+ }
+a.navbar-brand{
+	color:#484848;
+	font-weight: bold;
+	font-size:22px;
+}
+ .navbar-nav .nav-link{
+	color:#484848;
+	text-transform: uppercase;
+	font-size:14px;
+}
+
+.nav-link:hover{
+	color:#FF5A5F;
+}
+
+i.fa.fa-plane.fa-2x:hover{
+    cursor:pointer;
+    
+}
+
+/* W   Y   S   Z   U   K   I   W   A   R   K   A */
+
+.search-section{
+	padding-top:240px;
+	color:#484848;
+}
+
+.search-headline h1{	
+	font-size:35px;
+	font-weight: 300 !important;
+	color:#ffffff;
+}
+
+.search-headline h2{
+	font-size:45px;
+    font-weight: 700;
+	color:#FF5A5F;
+	margin-bottom:30px;
+
+}
+
+.select2-container .select2-selection--single {
+   
+    height: 40px;
+    padding:5px 0;
+    
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 35px;
+}
+
+button.search-button{
+	padding:15px 30px;
+	background-color:#ff5a5f;
+	color:white;
+	font-size:15px;
+	border-radius:4px;
+	border:none;
+	float:right;
+	font-weight: bold;
+	margin-top:25px;
+}
+
+
+button.search-button:hover{
+	background-color:#FF9900;
+    cursor:pointer;
+
+}
+
+
+
+.section-city{
+	padding:70px 0;
+	background-color:#F3F3F3;
+	
+	
+}
+
+.section_city_intro{
+	
+	margin:0 auto; 
+	text-align: center;
+ 
+}
+
+.section_city_intro h1{
+	font-size:35px;
+	color:#323232;	
+    font-weight:400;
+
+}
+
+.section_city_intro p{
+	font-size:15px;
+	color:#000000;
+}
+
+
+.card-info{
+	text-transform: uppercase;
+	padding-top:20px;
+}
+.card_label{
+	font-size:12px;
+	
+	
+}
+.card_headline{
+	font-size:18px;
+	color:black;
+
+}
+.city_card{
+	padding-bottom:50px;
+}
+
+.card_content{
+	
+	border-radius:5px;
+	margin-top:15px;
+	background-color:#fff;
+}
+.card_wrap{
+	
+	border-radius:5px;
+	margin-top:15px;
+	background-color:#F3F3F3;
+}
+
+a.fly{
+	color:#FFFFFF;
+	font-size:14px;
+	text-align: center;
+
+}
+
+
+/* S   E   C   T   I   O   N  /   TRIP */
+
+.section-trip{
+	padding:70px 0;
+	background-color:#ffffff;
+	
+	
+}
+
+
+.section-offerts{
+	
+	padding-top: 30px; 
+   
+	background-color:#222328;
+	
+}
+a.fly{
+	color:#F3F3F3;
+}
+
+
+a.fly:hover{
+    color:#FF5A5F;
+    transition: 0.2s;
+}
+
+.section-social-icons{
+    background-color:#222328;
+}
+
+.footer{
+	
+	color:#fff;
+	font-size:13px;	
+}
+p.rights{
+	text-align: center;
+	letter-spacing:0.5px;
+    margin:0 auto;
+    padding:10px 0;
+}
+
+button.search-button{
+	width:100%;
+	padding:10px 0;
+	margin-top:10px;
+}
+
+input.form-group{
+
+width:100%;
+}
+.social-icons{
+    padding-top:40px;
+}
+
+.social-icons a {
+    margin: 0px 3px;
+    width:35px;
+    height:35px;
+    background: #eee;
+    font-size:20px;
+    text-align: center;
+    line-height: 35px;
+    border-radius:50%;
+    color:#fff;
+    text-decoration:none;
+    cursor:pointer;
+    border:1px solid transparent;
+    margin-bottom:80px;
+    
+}
+.social-icons a:hover {
+    color:#000;
+}
+
+a.fa-facebook{
+    background-color:#52528b;
+    
+    
+}
+a.fa-twitter{
+    background-color:#00acee;
+    
+    
+}
+a.fa-instagram{
+    background-color:#E26048;
+    
+    
+}
+a.fa-google-plus{
+    background-color:tomato;
+}
+
+
+@media (max-width: 575px) { 
+
+.search-headline h1{	
+	font-size:25px;
+	text-align: center;
+}
+
+.search-headline h2{
+	font-size:35px;
+	text-align: center;
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
