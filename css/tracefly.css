@@ -11,7 +11,7 @@ body{
 .wrapper{
 	background-color:rgba(0, 0, 0, 0.2);
 	background-blend-mode: multiply;
-	background-image:url("backgrounds/summer.png");
+	background-image:url('images/warsaw.jpg');
 	background-size: cover;
 	background-repeat:no-repeat bottom center;
     font-family: 'Roboto', sans-serif;
@@ -74,7 +74,7 @@ i.fa.fa-plane.fa-2x:hover{
 }
 
 button.search-button{
-	padding:15px 30px;
+	padding:10px 30px;
 	background-color:#ff5a5f;
 	color:white;
 	font-size:15px;
@@ -82,7 +82,11 @@ button.search-button{
 	border:none;
 	float:right;
 	font-weight: bold;
-	margin-top:25px;
+	margin-top:30px;
+	width:100%;
+	
+	
+
 }
 
 
@@ -203,11 +207,7 @@ p.rights{
     padding:10px 0;
 }
 
-button.search-button{
-	width:100%;
-	padding:10px 0;
-	margin-top:10px;
-}
+
 
 input.form-group{
 
@@ -262,6 +262,15 @@ a.fa-google-plus{
 .search-headline h1{	
 	font-size:25px;
 	text-align: center;
+}
+    
+    button.search-button{
+	
+	margin-top:15px;
+	
+	
+	
+
 }
 
 .search-headline h2{
